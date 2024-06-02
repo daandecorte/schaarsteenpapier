@@ -1,0 +1,29 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: lightskyblue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+ul {
+  display: grid;
+  gap: 5rem;
+  margin-top: 15%;
+}
+li {
+  list-style-type: none;
+}
+a {
+  font-size: 5rem;
+  text-decoration: none;
+  color: white;
+  background-color: gray;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 5px solid black;
+  box-shadow: black 0.3rem 0.3rem;
+}
+a:hover {
+  background-color: lightgray;
+}
