@@ -1,0 +1,31 @@
+button {
+    margin-bottom: 0.5rem;
+    background-color: red;
+    border-color: rgb(202, 1, 1);
+    color: white;
+    position: absolute;
+    margin-left: 40vw;
+    margin-top: 40vh;
+    font-family: Arial, Helvetica, sans-serifs;
+    width: 20vw;
+    height: 20vh;
+    font-size: 4vw;
+    border-width: 1rem;
+    text-shadow: black 3px 3px;
+}
+.hidden {
+    display: none;
+}
+canvas {
+    background-image: radial-gradient(white 20rem, lightblue 60rem);
+    box-shadow: black 0.2rem 0.2rem;
+    border-radius: 0.5rem;
+    margin-top: 0.5vh;
+    margin-left: 0.5vw;
+    border: 2px solid black;
+    width: 97vw;
+    height: 95vh;
+}
+body {
+    background-color: white;
+}
